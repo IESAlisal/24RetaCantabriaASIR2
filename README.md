@@ -10,6 +10,10 @@ Es necesario crear un servidor con un servidor web con php y php-mysql
 
 ## 3. Instalación en una instancia EC2 en AWS
 
+A la hora de crear una instancia EC2 se puede meter un script de inicio para que se instale todo lo necesario en el campo de **User data**.
+Habría que cambiar los valores de usuario, password, servidor, BBDD y NumServidor (por si se hace un balanceo de carga y ver que servidor es el que atiende la petición).
+
+
 ```shell
 #!/bin/bash
 apt -y update
