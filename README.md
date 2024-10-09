@@ -21,7 +21,7 @@ apt -y upgrade
 apt install -y apache2 php php-mysql mysql-client
 cd /var/www/html/
 rm index.html
-git clone https://github.com/IESAlisal/SRIDTarea03.git .
+git clone https://github.com/IESAlisal/24RetaCantabriaASIR2 .
 cp vars-sample.php vars.php
 service apache2 restart
 
