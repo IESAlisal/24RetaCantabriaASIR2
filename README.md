@@ -31,7 +31,7 @@ BBDDUsuario="admin"
 BBDDPassword="admin"
 BBDDServidor="???????gestion.c2wpdbm91fjm.us-east-1.rds.amazonaws.com"
 BBDD="gestion"
-NumServidor='1Uno'
+NumServidor=$RANDOM
 
 # Cambiar el fichero de constantes por los datos correctos
 sed -i "s/localhost/$BBDDServidor/g"    /var/www/html/vars.php
