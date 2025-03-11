@@ -6,7 +6,7 @@ Este repositorio ha sido creado para el Reto del ciclo de **Administración de S
 
 ## 2. Descripción
 
-Es necesario crear un servidor con un servidor web con php y php-mysql
+Es necesario crear un servidor con un servidor web con php, php-curl y php-mysql 
 
 ## 3. Instalación en una instancia EC2 en AWS
 
@@ -18,7 +18,7 @@ Habría que cambiar los valores de usuario, password, servidor, BBDD y NumServid
 #!/bin/bash
 apt -y update
 apt -y upgrade
-apt install -y apache2 php php-mysql mysql-client
+apt install -y apache2 php php-mysql mysql-client php-curl
 cd /var/www/html/
 rm index.html
 git clone https://github.com/IESAlisal/24RetaCantabriaASIR2 .
