@@ -1077,7 +1077,8 @@ INSERT INTO Clientes VALUES ('213', 'Sports Emporium', '1-415-555-6281','4783 16
 INSERT INTO Clientes VALUES ('214', 'Sports Retail', '1-716-555-7777','115 Main Street','Buffalo', 'NY', 'US', NULL, 'POOR', '11', '1', NULL);
 INSERT INTO Clientes VALUES ('215', 'Sports Russia', '7-0953892444','7070 Yekatamina','Saint Petersburg', NULL, 'Russia', NULL,'POOR', '11', '5', NULL);
 
---Tabla Personas
+-- Tabla Personas
+
 CREATE TABLE IF NOT EXISTS Personas (
   IdPersona   int(11)     NOT NULL,
   Nombre      varchar(40) NOT NULL
