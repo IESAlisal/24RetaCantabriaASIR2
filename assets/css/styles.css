@@ -196,6 +196,17 @@ body {
     border-bottom-color: var(--accent-color);
 }
 
+/* Evitar que el contenedor interno tape el fondo del footer */
+.footer .container {
+    background: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 /* Badges Personalizados */
 .badge {
     padding: 6px 12px;
