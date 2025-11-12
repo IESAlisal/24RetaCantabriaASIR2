@@ -28,9 +28,9 @@ service apache2 restart
 #Modificar el fichero de configuración de la BBDD
 #para que funcione la aplicación                                                                       
 BBDDUsuario="admin"
-BBDDPassword="admin"
-BBDDServidor="???????gestion.c2wpdbm91fjm.us-east-1.rds.amazonaws.com"
-BBDD="gestion"
+BBDDPassword="admin12345"
+BBDDServidor="bbdd.alisal0X.com.es"
+BBDD="retacanbbdd"
 NumServidor=$RANDOM
 
 # Cambiar el fichero de constantes por los datos correctos
