@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
-                <h5>RetaCantabria</h5>
-                <p class="small">ASIR2 - IES Alisal</p>
+                <h5>Retos</h5>
+                <p class="small">IES Alisal</p>
             </div>
             <div class="col-md-4 text-center mb-3 mb-md-0">
                 <p class="mb-0">
@@ -15,7 +15,7 @@
             </div>
             <div class="col-md-4 text-center text-md-end">
                 <p class="mb-0">&copy; <?php echo date('Y'); ?> Todos los derechos reservados</p>
-                <p class="small mb-0">Versión 2.0</p>
+                <p class="small mb-0">Versión 2.4</p>
             </div>
         </div>
     </div>
