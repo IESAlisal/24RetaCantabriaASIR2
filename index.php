@@ -16,12 +16,15 @@
                     <h1 class="display-6 mb-3">Bienvenido a RetaCantabria</h1>
                     <p class="lead mb-2">Usa el menú superior para navegar por las secciones y consultar los listados.</p>
                     <p class="mb-3 text-muted">Proyecto ASIR2 · IES Alisal.</p>
-                    <img
-                        src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80"
-                        class="img-fluid rounded shadow-sm"
-                        alt="Paisaje costero de Cantabria"
-                        loading="lazy"
-                    >
+                    <div class="d-flex justify-content-center">
+                        <img
+                            src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80"
+                            class="img-fluid rounded shadow-sm"
+                            style="max-width:25%;"
+                            alt="Paisaje costero de Cantabria"
+                            loading="lazy"
+                        >
+                    </div>
                 </div>
             </div>
             </div>
